@@ -29,6 +29,6 @@ Description of code projects is available at my ***LinkedIn*** profile in sectio
 Masaryk University Faculty of Informatics [2020-2022]: Bachelor | not finished | Software Development | Brno, Czechia
 Mendel University Faculty of Regional Development [2022-2025]: Bachelor | 3rd year | Regional Development | Brno, Czechia
 # Languages
-Russian: C2, Native
-English: C1 [state graduation exam: 88/100, English summer schools 2014-2015 in Dublin, Republic of Ireland]
-Czech: C1 [study program in Czech, language courses exam: B2]
+* Russian: C2, Native
+* English: C1 [state graduation exam: 88/100, English summer schools 2014-2015 in Dublin, Republic of Ireland]
+* Czech: C1 [study program in Czech, language courses exam: B2]

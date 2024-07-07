@@ -4,13 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <article>
+    <header>
         <h1>Aleksandr Khomutov</h1>
-    </article>
+        <nav class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#intro" class="nav-link">Intro</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code-examples" class="nav-link">Code examples</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section" id="intro">
+            <h2>Intro</h2>
+            <img src="./assets/images/avatar.jpg" alt="avatar"/>
+        </section>
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <p><span class="service">LinkedIn</span>: https://www.linkedin.com/in/aleksandr-khomutov-4a35b3162/</p>
+            <p><span class="service">GitHub</span>: @thelasts</p>
+            <p><span class="service">Telegram</span>: @khomambe</p>
+            <p><span class="service">ResearchGate</span>: https://www.researchgate.net/profile/Aleksandr-Khomutov</p>
+        </section>        
+        <section class="section" id="about-me">
+            <h2>About me</h2>
+            I am 23 years old full-time student 
+            at Faculty of regional development of Mendel 
+            University in Brno. I am looking forward to gaining 
+            the necessary experience to move on, aiming to build 
+            a stable career at the intersection of IT, Digital 
+            and Social Development fields.
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul class="skill-list"> 
+                <li>PowerBI Dashboards and Data Administration</li>
+                <li>Postgres 17</li>
+                <li>Python Core</li>
+                <li>Linux, Bash/POSIX</li>
+                <li>Markdown, HTML, CSS</li>
+                <li>JavaScript for FE</li>
+                <li>Docker</li>
+                <li>Heroku + AWS</li>
+                <li>MS Office: Excel, Word, PowerPoint, OneNote</li>
+                <li>3D design: Blender, Maya, Adobe Illustrator</li> 
+                <li>Spatial Data: QGIS, R</li>
+            </ul>
+        </section>
+        <section class="section" id="code-examples">
+            <h2>Code examples</h2>
+            <blockquote class="code"> print("Hello, world!") </blockquote>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            Description of code projects is available at my <span class="service">LinkedIn</span> profile in section <span>Projects</span>.
+        </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <p><b>Masaryk University Faculty of Informatics</b> [2020-2022]: Bachelor | not finished | Software Development | Brno, Czechia</p>
+            <p><b>Mendel University Faculty of Regional Development</b> [2022-2025]: Bachelor | 3rd year | Regional Development | Brno, Czechia</p>
+        </section>
+        <section class="section" id="languages">
+            <h2>Languages</h2>
+            <p><b>Russian</b>: C2, Native</p> 
+            <p><b>English</b>: C1, Fluent [state graduation exam: 88/100, English summer schools 2014-2015 in Dublin, Republic of Ireland]</p>
+            <p><b>Czech</b>: C1, Fluent [study program in Czech, language courses exam: B2]</p>
+        </section>
+        
+    </main>
     <footer>
-        © 2024 by Aleksandr Khomutov <img src="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/rs-school-logo.svg" alt="https://rs.school/courses/javascript-preschool-ru">
+        © 2024 by Aleksandr Khomutov <img class="logo" src="./assets/images/rs-school-logo.svg" alt="https://rs.school/courses/javascript-preschool-ru">
     </footer>
 </body>
 </html>
